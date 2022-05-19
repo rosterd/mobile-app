@@ -1,6 +1,6 @@
 # Introduction
 
-Rostered Reactive App. Anroid and IOS codebase combined
+Rostered React Native App. Anroid and IOS codebase combined
 
 # Getting Started
 
