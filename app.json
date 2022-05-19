@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "owner": "penteract",
+    "privacy": "hidden",
+    "name": "Rosterd",
+    "slug": "rosterd",
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "scheme": "rosterd",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "nz.co.penteract.rosterd",
+      "buildNumber": "1.0.5",
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": [],
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true,
+      "package": "nz.co.penteract.rosterd",
+      "versionCode": 5,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyC4J1hIIEiDX00xR3G5DnU5YVjRo7ZE1Ac"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "penteract",
+            "project": "rosterd",
+            "authToken": ""
+          }
+        }
+      ]
+    }
+  }
+}

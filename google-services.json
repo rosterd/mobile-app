@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "181907125730",
+    "project_id": "rosterd-fc797",
+    "storage_bucket": "rosterd-fc797.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181907125730:android:3b4380372354f1ab0435bb",
+        "android_client_info": {
+          "package_name": "nz.co.penteract.rosterd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181907125730-gh81l5o3ma6n6l7hsmr7u46ec2bdaes3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5N0IOjShVu6MbbQ0KIZirGsclWMayzUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181907125730-gh81l5o3ma6n6l7hsmr7u46ec2bdaes3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
